@@ -1,0 +1,16 @@
+# Local package builds and release artifacts
+build/
+dist/
+playground/
+pylon/
+
+# PowerShell and editor state
+.vscode/
+.idea/
+*.user
+*.suo
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini

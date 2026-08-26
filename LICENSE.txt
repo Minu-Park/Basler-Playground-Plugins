@@ -1,0 +1,32 @@
+END-USER LICENSE AGREEMENT (EULA) FOR BASLER PLAYGROUND
+
+IMPORTANT - READ CAREFULLY: This End-User License Agreement ("EULA") is a legal agreement between you (either an individual or a single entity) and Basler Korea Inc. ("Basler") for the software product "Basler Playground" ("Software").
+
+1. GRANT OF LICENSE
+Basler grants you a non-exclusive, non-transferable, limited license to install and use the Software solely for evaluation, development, and integration of Basler products.
+
+2. RESTRICTIONS
+- You shall not reverse engineer, decompile, or disassemble the Software.
+- You shall not rent, lease, sublicense, or distribute copies of the Software to third parties without express written consent from Basler.
+- You shall not modify or delete any proprietary notices, labels, or marks in the Software.
+
+3. INTELLECTUAL PROPERTY RIGHTS
+The Software and all copyrights, trademarks, and intellectual property rights therein are owned by Basler Korea Inc. and its suppliers. The Software is protected by copyright laws and international treaty provisions.
+
+4. THIRD-PARTY SOFTWARE AND LICENSES
+The Software utilizes third-party components which are governed by their respective licenses:
+- Qt Framework: Licensed under LGPLv3 (https://www.qt.io)
+- VTK (Visualization Toolkit): Licensed under BSD 3-Clause License (https://vtk.org)
+- Basler Pylon SDK: Governed by Basler's own licensing terms.
+By accepting this EULA, you agree to comply with the terms and conditions of these third-party licenses.
+
+5. DISCLAIMER OF WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, BASLER DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+6. LIMITATION OF LIABILITY
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL BASLER KOREA INC. BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE.
+
+7. GOVERNING LAW
+This Agreement shall be governed by and construed in accordance with the laws of the Republic of Korea.
+
+Copyright (c) Basler Korea Inc. All rights reserved.

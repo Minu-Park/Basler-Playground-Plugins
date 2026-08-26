@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "framegrabber",
+  "displayName": "Basler Frame Grabber",
+  "addActionText": "Frame Grabber",
+  "sessionType": "Frame Grabber",
+  "menuOrder": 200,
+  "icon": "icon.png",
+  "abi": {
+    "devicePlugin": "2.2"
+  },
+  "libraries": {
+    "windows": "FramegrabberPlugin.dll",
+    "linux": "FramegrabberPlugin.so",
+    "macos": "FramegrabberPlugin.so"
+  },
+  "version": "0.1.1",
+  "minimumCoreVersion": "0.5.0",
+  "runtime": {
+    "loadOrder": 100,
+    "libraryDirectories": [
+      "runtime/bin",
+      "runtime/bin/plugins",
+      "runtime/lib"
+    ],
+    "environmentPaths": {
+      "BASLER_FG_SDK_DIR": "runtime",
+      "BASLER_FGSDK_LOGGING_CONFIG": "runtime/bin/BaslerFgSdkLogging.properties"
+    }
+  }
+}

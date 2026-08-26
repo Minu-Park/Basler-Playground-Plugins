@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "heliotis-c4",
+  "displayName": "Heliotis C4",
+  "addActionText": "Heliotis C4",
+  "sessionType": "Heliotis C4",
+  "menuOrder": 400,
+  "icon": "icon.png",
+  "abi": {
+    "devicePlugin": "2.2"
+  },
+  "libraries": {
+    "windows": "HeliotisC4Plugin.dll"
+  },
+  "version": "0.1.2",
+  "minimumCoreVersion": "0.5.0",
+  "runtime": {
+    "environmentPaths": {
+      "PLAYGROUND_HELIOTISC4_RUNTIME_ROOT": "runtime"
+    }
+  }
+}
