@@ -27,10 +27,11 @@ commit, package version, release tag, and platform.
 
 The `plugins/` directory contains the four canonical package-manifest
 snapshots. `catalog/v0.5.0-candidate/plugins-index.json` records the current
-four-plugin candidate and points to exact future assets in this repository.
-It is intentionally not the active Core catalog yet: the Core `v0.5.0`
-release and the separate package releases must be verified before the host is
-switched from the legacy catalog location.
+four-plugin candidate and points to exact public assets in this repository.
+The four package releases are now public, but this catalog is intentionally
+not the active Core catalog yet: the Core `v0.5.0` release and the address
+migration must be verified before the host is switched from the legacy
+catalog location.
 
 The old `Basler-Playground` release repository remains unchanged during this
 staged migration. Existing tags and assets are not moved or rewritten.
