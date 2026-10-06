@@ -11,7 +11,10 @@ Releases.
 ## Release assets
 
 - Package releases use `plugin-<id>-v<plugin-version>` tags.
-- Each package release contains a Windows ZIP and its SHA-256 sidecar.
+- Each package release contains a Windows ZIP and `plugin-artifacts.json`.
+  Verify the ZIP with `platforms.<platform>.packageSha256` in that file, or
+  with the `sha256:` digest shown on the release page, for example
+  `Get-FileHash <zip> -Algorithm SHA256`.
 - `plugin-channel` exposes `plugins-index.json` with exact package URLs and
   SHA-256 values.
 
