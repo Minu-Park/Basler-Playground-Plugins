@@ -1,0 +1,24 @@
+# Local package builds and release artifacts
+build/
+dist/
+pylon/
+
+# PowerShell and editor state
+.vscode/
+.idea/
+*.user
+*.suo
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python orchestration cache
+__pycache__/
+*.pyc
+
+# Retired local integration checkouts (private orchestration moved to pg-plugins)
+/dependencies/
+/plugins/
+/.gitmodules
